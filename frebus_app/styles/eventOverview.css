@@ -1,0 +1,85 @@
+
+
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eventCard {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    max-width: 1300px;
+}
+
+
+
+.textSpace {
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 16px;
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    overflow-wrap: break-word;
+    margin: 0px 0px 10px 20px;
+    padding: 10px;
+}
+
+.details {
+    font-weight: bold;
+    display: flex;
+    min-width: 100%;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.details span {
+    padding-bottom: 5px;
+}
+
+@media (max-width: 990px) {
+    .eventCard {
+        flex-direction: column;
+        width: auto;
+    }
+    .details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.eventCard img, .eventCard .imageSpacer {
+    width: 400px;
+    margin: 10px;
+}
+
+.eventCard button {
+    background: none rgb(128, 185, 76);
+    border: none;
+    outline: none;
+    padding: 10px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: all 0.1s ease-in 0s;
+}
+
+.eventCard button:hover {
+    background: none rgba(128, 185, 76, 0.76);
+
+}

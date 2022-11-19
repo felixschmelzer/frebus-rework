@@ -27,12 +27,12 @@ export default function RootLayout({
                 height={100}
             />
         </header>
-        <main>
+        <div className="contentSpace">
             {children}
             <footer>
-                <div>Footer</div>
+                <div></div>
             </footer>
-        </main>
+        </div>
         </body>
         </html>
     )
