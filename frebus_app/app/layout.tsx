@@ -11,6 +11,7 @@ export default function RootLayout({
     return (
         <html>
         <head/>
+        <body>
         <header>
             <Image
                 src={"/hoch3Logo.svg"}
@@ -32,7 +33,7 @@ export default function RootLayout({
                 <div>Footer</div>
             </footer>
         </main>
-
+        </body>
         </html>
     )
 }
